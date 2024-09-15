@@ -1,0 +1,25 @@
+{
+  "name": "vuebabylondemo",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@babylonjs/core": "^7.24.0",
+    "@babylonjs/gui": "^7.24.0",
+    "@babylonjs/inspector": "^7.25.1",
+    "@babylonjs/loaders": "^7.24.0",
+    "ammo.js": "^0.0.10",
+    "vue": "^3.4.37"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.1.2",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.1",
+    "vue-tsc": "^2.0.29"
+  }
+}
